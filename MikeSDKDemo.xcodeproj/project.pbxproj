@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0535DCD46F7206957E3F29F9 /* libPods-MikeKitDemo-MikeSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 562E829BA9FA335475F46029 /* libPods-MikeKitDemo-MikeSDKDemo.a */; };
+		AE97CB491E27B3BE00EAFFB8 /* libInterface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE97CB481E27B3BE00EAFFB8 /* libInterface.a */; };
 		AEA95EF11E27A77B004FC14E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EF01E27A77B004FC14E /* main.m */; };
 		AEA95EF41E27A77B004FC14E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EF31E27A77B004FC14E /* AppDelegate.m */; };
 		AEA95EF71E27A77B004FC14E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EF61E27A77B004FC14E /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B712A06EFD47B80CFA628FE /* Pods-MikeKitDemo-MikeSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MikeKitDemo-MikeSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MikeKitDemo-MikeSDKDemo/Pods-MikeKitDemo-MikeSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		562E829BA9FA335475F46029 /* libPods-MikeKitDemo-MikeSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MikeKitDemo-MikeSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE97CB431E27B0C000EAFFB8 /* MikeSDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MikeSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AE97CB481E27B3BE00EAFFB8 /* libInterface.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInterface.a; path = "../Interface/build/Debug-iphoneos/libInterface.a"; sourceTree = "<group>"; };
 		AEA95EEC1E27A77B004FC14E /* MikeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA95EF01E27A77B004FC14E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEA95EF21E27A77B004FC14E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		AEA95F101E27A77B004FC14E /* MikeSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikeSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA95F141E27A77B004FC14E /* MikeSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikeSDKDemoUITests.m; sourceTree = "<group>"; };
 		AEA95F161E27A77B004FC14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72957C17CECE7B79CED8FC8 /* Pods-MikeKitDemo-MikeSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MikeKitDemo-MikeSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MikeKitDemo-MikeSDKDemo/Pods-MikeKitDemo-MikeSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE97CB491E27B3BE00EAFFB8 /* libInterface.a in Frameworks */,
+				0535DCD46F7206957E3F29F9 /* libPods-MikeKitDemo-MikeSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C179FD4F905007427A0926F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E72957C17CECE7B79CED8FC8 /* Pods-MikeKitDemo-MikeSDKDemo.debug.xcconfig */,
+				3B712A06EFD47B80CFA628FE /* Pods-MikeKitDemo-MikeSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81274C6C74D7B488045E5B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE97CB481E27B3BE00EAFFB8 /* libInterface.a */,
+				562E829BA9FA335475F46029 /* libPods-MikeKitDemo-MikeSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEA95EE31E27A77B004FC14E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				AEA95F081E27A77B004FC14E /* MikeSDKDemoTests */,
 				AEA95F131E27A77B004FC14E /* MikeSDKDemoUITests */,
 				AEA95EED1E27A77B004FC14E /* Products */,
+				0C179FD4F905007427A0926F /* Pods */,
+				81274C6C74D7B488045E5B93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				AEA95EF01E27A77B004FC14E /* main.m */,
+				AE97CB431E27B0C000EAFFB8 /* MikeSDKDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA95F191E27A77B004FC14E /* Build configuration list for PBXNativeTarget "MikeSDKDemo" */;
 			buildPhases = (
+				3B40AC05DEE63E4E5ED6AB15 /* [CP] Check Pods Manifest.lock */,
 				AEA95EE81E27A77B004FC14E /* Sources */,
 				AEA95EE91E27A77B004FC14E /* Frameworks */,
 				AEA95EEA1E27A77B004FC14E /* Resources */,
+				1BE6F84697362D67934927C3 /* [CP] Embed Pods Frameworks */,
+				9A6363C9F4B1CDA5BAC3452E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +303,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE6F84697362D67934927C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MikeKitDemo-MikeSDKDemo/Pods-MikeKitDemo-MikeSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B40AC05DEE63E4E5ED6AB15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6363C9F4B1CDA5BAC3452E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MikeKitDemo-MikeSDKDemo/Pods-MikeKitDemo-MikeSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEA95EE81E27A77B004FC14E /* Sources */ = {
@@ -425,10 +506,19 @@
 		};
 		AEA95F1A1E27A77B004FC14E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72957C17CECE7B79CED8FC8 /* Pods-MikeKitDemo-MikeSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWA9R9FXT6;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MikeSDKDemo/MikeSDKDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Interface/Interface/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = MikeSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.fangchuang.com.MikeSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +527,19 @@
 		};
 		AEA95F1B1E27A77B004FC14E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B712A06EFD47B80CFA628FE /* Pods-MikeKitDemo-MikeSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWA9R9FXT6;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MikeSDKDemo/MikeSDKDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Interface/Interface/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = MikeSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.fangchuang.com.MikeSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +615,7 @@
 				AEA95F1B1E27A77B004FC14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEA95F1C1E27A77B004FC14E /* Build configuration list for PBXNativeTarget "MikeSDKDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +624,7 @@
 				AEA95F1E1E27A77B004FC14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEA95F1F1E27A77B004FC14E /* Build configuration list for PBXNativeTarget "MikeSDKDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +633,7 @@
 				AEA95F211E27A77B004FC14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

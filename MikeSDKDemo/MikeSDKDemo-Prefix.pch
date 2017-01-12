@@ -1,0 +1,14 @@
+//
+//  MikeSDKDemo-Prefix.pch
+//  MikeSDKDemo
+//
+//  Created by Kenvin on 17/1/12.
+//  Copyright © 2017年 上海方创金融信息服务股份有限公司. All rights reserved.
+//
+
+#ifndef MikeSDKDemo_Prefix_pch
+#define MikeSDKDemo_Prefix_pch
+
+#import "Interface.h"
+
+#endif /* MikeSDKDemo_Prefix_pch */
